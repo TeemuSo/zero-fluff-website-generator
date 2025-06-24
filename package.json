@@ -1,0 +1,14 @@
+{
+  "name": "zero-template",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4",
+    "html-minifier-terser": "^6.1.0",
+    "globby": "^14.0.0",
+    "squoosh-cli": "^0.8.0"
+  },
+  "type": "module"
+}

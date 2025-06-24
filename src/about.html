@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>About – Zero Landing</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.4/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-900">
+  <header class="p-6 text-center">
+    <h1 class="text-3xl font-semibold">About us</h1>
+  </header>
+
+  <main class="max-w-2xl mx-auto p-6 space-y-4">
+    <p>Write a killer about page here.</p>
+    <a href="/index.html" class="text-blue-600 underline">← Home</a>
+  </main>
+
+  <footer class="p-6 text-center text-sm text-gray-500">
+    © <span id="year"></span> Your Company
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
